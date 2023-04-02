@@ -1,10 +1,11 @@
-let shu3 = 5;
-let hacchi = 8;
+let max = 100;
+let num = 2
+;
+let count = 0;
 
-if(shu3 < hacchi){
-  alert('shu3の身長はhacchiより低い')
-} else if(shu3 == hacchi){
-  alert('shu3とhacchiは同じ身長')
-} else {
-  alert('shu3の身長がhacchiより高い　はずがない')
+while(num < max){
+  num = num * 2;
+  count = count + 1;
 }
+
+alert('2を掛け続けて'+max+'を超えるのに必要だった回数は'+count+'回です');
