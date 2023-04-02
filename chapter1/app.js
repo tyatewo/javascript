@@ -1,8 +1,8 @@
-let i;
-let num = 0;
+let alertString;
+alertString = addString("webCamp");
+alert(alertString);
 
-for(i=1; i<11; i++){
-  num = num + i;
+function addString(strA){
+  let addStr = "Hello" + strA;
+  return addStr;
 }
-
-alert('1から10まで足し算した結果は'+num+'です');
